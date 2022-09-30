@@ -3,6 +3,7 @@ import Home from "./routes/Home.js";
 import Detail from "./routes/Detail.js";
 
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
     <BrowserRouter>
       <Routes>
